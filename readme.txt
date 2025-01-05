@@ -4,8 +4,8 @@ Donate link: https://donate.senff.com
 Tags: sticky block, sticky, gutenberg
 Plugin URI: https://wordpress.org/plugins/sticky-block/
 Requires at least: 5.0
-Tested up to: 6.2
-Stable tag: 1.11
+Tested up to: 6.7
+Stable tag: 1.11.1
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -81,6 +81,9 @@ Sticky Block was created using the [Create Guten Block Toolkit](https://ahmadawa
 
 == Changelog ==
 
+= 1.11.1 =
+* Adjusted some code to better adhere to plugin standards.
+
 = 1.11 =
 * Minor bug fix (thanks to @brogr for reporting)
 * WP 6.0 compatibility
@@ -90,3 +93,10 @@ Sticky Block was created using the [Create Guten Block Toolkit](https://ahmadawa
 
 = 1.0 =
 * Initial release of the plugin
+
+
+== Upgrade notice ==
+
+= 1.11.1 =
+* Code updates
+

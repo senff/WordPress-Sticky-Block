@@ -9,22 +9,22 @@ function sticky_block_assets() {
 		'sticky_block-editor-js', 
 		plugins_url( 'dist/blocks.build.js', dirname( __FILE__ ) ), 
 		array( 'wp-blocks', 'wp-i18n', 'wp-element', 'wp-editor' ), 
-		null, 
-		true 
+		'1.11.1', 
+		array( 'in_footer' => true )
 	);
 
 	wp_register_style(
 		'sticky_block-css', 
 		plugins_url( 'dist/blocks.style.build.css', dirname( __FILE__ ) ), 
 		array( 'wp-editor' ), 
-		null 
+		'1.11.1'
 	);
 
 	wp_register_style(
 		'sticky_block-editor-css', 
 		plugins_url( 'dist/blocks.editor.build.css', dirname( __FILE__ ) ), 
 		array( 'wp-edit-blocks' ), 
-		null 
+		'1.11.1'
 	);
 
 	wp_localize_script(
